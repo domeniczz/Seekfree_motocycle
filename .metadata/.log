@@ -8,3 +8,53 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infin
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-03-07 10:14:40.323
 !MESSAGE Indexed 'Seekfree_TC377_Opensource_Library' (207 sources, 740 headers) in 16.4 sec: 153,153 declarations; 272,918 references; 6 unresolved inclusions; 1,279 syntax errors; 666 unresolved names (0.16%)
+!SESSION 2022-03-07 11:26:16.222 -----------------------------------------------
+eclipse.buildId=1.5.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-03-07 11:26:33.013
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-03-07 11:26:39.033
+!MESSAGE Failed to open C/C++ index file D:\CodeField\AURIX152_workspace\Seekfree_motocycle\.metadata\.plugins\org.eclipse.cdt.core\Seekfree_TC377_Opensource_Library.1646619263373.pdom - rebuilding the index
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: Seekfree_TC377_Opensource_Library.1646619263373.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.getLinkageID(PDOMLinkage.java:140)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.readLinkages(PDOM.java:470)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.loadDatabase(PDOM.java:451)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.<init>(PDOM.java:426)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.<init>(WritablePDOM.java:67)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.<init>(WritablePDOM.java:62)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getOrCreatePDOM(PDOMManager.java:391)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.createIndexer(PDOMManager.java:592)
+	at org.eclipse.cdt.internal.core.pdom.PDOMSetupJob.run(PDOMSetupJob.java:61)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2022-03-07 11:26:39.034
+!MESSAGE Corrupted database: Seekfree_TC377_Opensource_Library.1646619263373.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-03-07 11:26:39.035
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: Seekfree_TC377_Opensource_Library.1646619263373.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.getLinkageID(PDOMLinkage.java:140)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.readLinkages(PDOM.java:470)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.loadDatabase(PDOM.java:451)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.<init>(PDOM.java:426)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.<init>(WritablePDOM.java:67)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.<init>(WritablePDOM.java:62)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getOrCreatePDOM(PDOMManager.java:399)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.createIndexer(PDOMManager.java:592)
+	at org.eclipse.cdt.internal.core.pdom.PDOMSetupJob.run(PDOMSetupJob.java:61)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2022-03-07 11:26:39.035
+!MESSAGE Corrupted database: Seekfree_TC377_Opensource_Library.1646619263373.pdom
