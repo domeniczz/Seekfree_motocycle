@@ -1,0 +1,10 @@
+!SESSION 2022-03-07 10:13:05.467 -----------------------------------------------
+eclipse.buildId=1.5.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-07 10:14:40.323
+!MESSAGE Indexed 'Seekfree_TC377_Opensource_Library' (207 sources, 740 headers) in 16.4 sec: 153,153 declarations; 272,918 references; 6 unresolved inclusions; 1,279 syntax errors; 666 unresolved names (0.16%)
