@@ -50,3 +50,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# custom
+/Seekfree_TC377_Opensource_Library/Debug/
