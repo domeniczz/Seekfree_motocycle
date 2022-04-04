@@ -1,7 +1,0 @@
-15:57:28 **** Clean-only build of configuration Debug for project Seekfree_TC377_Opensource_Library ****
-make --output-sync -j12 clean 
-find . ! -name "*.mk" ! -name "makefile" ! -name "." -type f -delete 
- 
-
-15:57:29 Build Finished. 0 errors, 0 warnings. (took 667ms)
-
