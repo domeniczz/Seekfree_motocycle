@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
-<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1648020069315_0" label="Window Working Set" name="Aggregate for window 1648020069315"/>
+<workingSet factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1650109939590_1" label="ActiveProject" name="ActiveProject">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Seekfree_TC377_Opensource_Library" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1650109852580_0" label="Window Working Set" name="Aggregate for window 1650109852580">
+<workingSet IMemento.internal.id="ActiveProject"/>
+</workingSet>
 </workingSetManager>
